@@ -1,0 +1,905 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2413 /opt/microchip/xc8/v2.10/pic/include/pic16f88.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2413: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"2416
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2416: extern volatile __bit RB1 __attribute__((address(0x31)));
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"2419
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2419: extern volatile __bit RB2 __attribute__((address(0x32)));
+[v _RB2 `Vb ~T0 @X0 0 e@50 ]
+"2422
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2422: extern volatile __bit RB3 __attribute__((address(0x33)));
+[v _RB3 `Vb ~T0 @X0 0 e@51 ]
+"2425
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2425: extern volatile __bit RB4 __attribute__((address(0x34)));
+[v _RB4 `Vb ~T0 @X0 0 e@52 ]
+"2428
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2428: extern volatile __bit RB5 __attribute__((address(0x35)));
+[v _RB5 `Vb ~T0 @X0 0 e@53 ]
+"2431
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2431: extern volatile __bit RB6 __attribute__((address(0x36)));
+[v _RB6 `Vb ~T0 @X0 0 e@54 ]
+"2401
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2401: extern volatile __bit RA4 __attribute__((address(0x2C)));
+[v _RA4 `Vb ~T0 @X0 0 e@44 ]
+[v F758 `(v ~T0 @X0 1 tf1`ul ]
+"92 /opt/microchip/xc8/v2.10/pic/include/pic.h
+[v __delay `JF758 ~T0 @X0 0 e ]
+[p i __delay ]
+"2407 /opt/microchip/xc8/v2.10/pic/include/pic16f88.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2407: extern volatile __bit RA6 __attribute__((address(0x2E)));
+[v _RA6 `Vb ~T0 @X0 0 e@46 ]
+"2410
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2410: extern volatile __bit RA7 __attribute__((address(0x2F)));
+[v _RA7 `Vb ~T0 @X0 0 e@47 ]
+"2434
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2434: extern volatile __bit RB7 __attribute__((address(0x37)));
+[v _RB7 `Vb ~T0 @X0 0 e@55 ]
+"54 /opt/microchip/xc8/v2.10/pic/include/pic16f88.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 292: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"312
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 312: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"390
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 390: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"446
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 446: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"480
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 480: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"487
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 487: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"494
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 494: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"501
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 501: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"573
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 573: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"580
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 580: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"651
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 651: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"658
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 658: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"728
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 728: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"735
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 735: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"742
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 742: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"749
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 749: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"807
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 807: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"902
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 902: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"909
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 909: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"916
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 916: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"923
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 923: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1019
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1019: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1089
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1089: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1151
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1151: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1213
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1213: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1269
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1269: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1303
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1303: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1337
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1337: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1408
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1408: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1466
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1466: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1473
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1473: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1480
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1480: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1649
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1649: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"1730
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1730: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"1737
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1737: __asm("ANSEL equ 09Bh");
+[; <" ANSEL equ 09Bh ;# ">
+"1793
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1793: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"1863
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1863: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"1928
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1928: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"1935
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1935: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"1983
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1983: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"2041
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2041: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2048
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2048: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2055
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2055: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2062
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2062: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2069
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2069: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2120
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2120: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"4 7-segment-x-3.c
+[v _convert_to_segment `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _convert_to_segment ]
+[v _value `uc ~T0 @X0 1 r1 ]
+[f ]
+"5
+[e $U 90  ]
+{
+"6
+[e :U 91 ]
+"7
+[e = _RB0 -> -> 0 `i `b ]
+"8
+[e = _RB1 -> -> 0 `i `b ]
+"9
+[e = _RB2 -> -> 0 `i `b ]
+"10
+[e = _RB3 -> -> 0 `i `b ]
+"11
+[e = _RB4 -> -> 0 `i `b ]
+"12
+[e = _RB5 -> -> 0 `i `b ]
+"13
+[e = _RB6 -> -> 0 `i `b ]
+"14
+[e $U 89  ]
+"15
+[e :U 92 ]
+"16
+[e = _RB0 -> -> 0 `i `b ]
+"17
+[e = _RB1 -> -> 0 `i `b ]
+"18
+[e = _RB2 -> -> 0 `i `b ]
+"19
+[e = _RB3 -> -> 0 `i `b ]
+"20
+[e = _RB4 -> -> 0 `i `b ]
+"21
+[e = _RB5 -> -> 0 `i `b ]
+"22
+[e = _RB6 -> -> 1 `i `b ]
+"23
+[e $U 89  ]
+"24
+[e :U 93 ]
+"25
+[e = _RB0 -> -> 1 `i `b ]
+"26
+[e = _RB1 -> -> 1 `i `b ]
+"27
+[e = _RB2 -> -> 1 `i `b ]
+"28
+[e = _RB3 -> -> 1 `i `b ]
+"29
+[e = _RB4 -> -> 1 `i `b ]
+"30
+[e = _RB5 -> -> 1 `i `b ]
+"31
+[e = _RB6 -> -> 0 `i `b ]
+"32
+[e $U 89  ]
+"33
+[e :U 94 ]
+"34
+[e = _RB0 -> -> 0 `i `b ]
+"35
+[e = _RB1 -> -> 1 `i `b ]
+"36
+[e = _RB2 -> -> 1 `i `b ]
+"37
+[e = _RB3 -> -> 0 `i `b ]
+"38
+[e = _RB4 -> -> 0 `i `b ]
+"39
+[e = _RB5 -> -> 0 `i `b ]
+"40
+[e = _RB6 -> -> 0 `i `b ]
+"41
+[e $U 89  ]
+"42
+[e :U 95 ]
+"43
+[e = _RB0 -> -> 1 `i `b ]
+"44
+[e = _RB1 -> -> 1 `i `b ]
+"45
+[e = _RB2 -> -> 0 `i `b ]
+"46
+[e = _RB3 -> -> 1 `i `b ]
+"47
+[e = _RB4 -> -> 1 `i `b ]
+"48
+[e = _RB5 -> -> 0 `i `b ]
+"49
+[e = _RB6 -> -> 1 `i `b ]
+"50
+[e $U 89  ]
+"51
+[e :U 96 ]
+"52
+[e = _RB0 -> -> 1 `i `b ]
+"53
+[e = _RB1 -> -> 1 `i `b ]
+"54
+[e = _RB2 -> -> 1 `i `b ]
+"55
+[e = _RB3 -> -> 1 `i `b ]
+"56
+[e = _RB4 -> -> 0 `i `b ]
+"57
+[e = _RB5 -> -> 0 `i `b ]
+"58
+[e = _RB6 -> -> 1 `i `b ]
+"59
+[e $U 89  ]
+"60
+[e :U 97 ]
+"61
+[e = _RB0 -> -> 0 `i `b ]
+"62
+[e = _RB1 -> -> 1 `i `b ]
+"63
+[e = _RB2 -> -> 1 `i `b ]
+"64
+[e = _RB3 -> -> 0 `i `b ]
+"65
+[e = _RB4 -> -> 0 `i `b ]
+"66
+[e = _RB5 -> -> 1 `i `b ]
+"67
+[e = _RB6 -> -> 1 `i `b ]
+"68
+[e $U 89  ]
+"69
+[e :U 98 ]
+"70
+[e = _RB0 -> -> 1 `i `b ]
+"71
+[e = _RB1 -> -> 0 `i `b ]
+"72
+[e = _RB2 -> -> 1 `i `b ]
+"73
+[e = _RB3 -> -> 1 `i `b ]
+"74
+[e = _RB4 -> -> 0 `i `b ]
+"75
+[e = _RB5 -> -> 1 `i `b ]
+"76
+[e = _RB6 -> -> 1 `i `b ]
+"77
+[e $U 89  ]
+"78
+[e :U 99 ]
+"79
+[e = _RB0 -> -> 1 `i `b ]
+"80
+[e = _RB1 -> -> 0 `i `b ]
+"81
+[e = _RB2 -> -> 1 `i `b ]
+"82
+[e = _RB3 -> -> 1 `i `b ]
+"83
+[e = _RB4 -> -> 1 `i `b ]
+"84
+[e = _RB5 -> -> 1 `i `b ]
+"85
+[e = _RB6 -> -> 1 `i `b ]
+"86
+[e $U 89  ]
+"87
+[e :U 100 ]
+"88
+[e = _RB0 -> -> 1 `i `b ]
+"89
+[e = _RB1 -> -> 1 `i `b ]
+"90
+[e = _RB2 -> -> 1 `i `b ]
+"91
+[e = _RB3 -> -> 0 `i `b ]
+"92
+[e = _RB4 -> -> 0 `i `b ]
+"93
+[e = _RB5 -> -> 0 `i `b ]
+"94
+[e = _RB6 -> -> 0 `i `b ]
+"95
+[e $U 89  ]
+"96
+[e :U 101 ]
+"97
+[e = _RB0 -> -> 1 `i `b ]
+"98
+[e = _RB1 -> -> 1 `i `b ]
+"99
+[e = _RB2 -> -> 1 `i `b ]
+"100
+[e = _RB3 -> -> 1 `i `b ]
+"101
+[e = _RB4 -> -> 1 `i `b ]
+"102
+[e = _RB5 -> -> 1 `i `b ]
+"103
+[e = _RB6 -> -> 1 `i `b ]
+"104
+[e $U 89  ]
+"105
+[e :U 102 ]
+"106
+[e = _RB0 -> -> 1 `i `b ]
+"107
+[e = _RB1 -> -> 1 `i `b ]
+"108
+[e = _RB2 -> -> 1 `i `b ]
+"109
+[e = _RB3 -> -> 1 `i `b ]
+"110
+[e = _RB4 -> -> 0 `i `b ]
+"111
+[e = _RB5 -> -> 1 `i `b ]
+"112
+[e = _RB6 -> -> 1 `i `b ]
+"113
+[e $U 89  ]
+"114
+[e :U 103 ]
+"115
+[e = _RB0 -> -> 1 `i `b ]
+"116
+[e = _RB1 -> -> 1 `i `b ]
+"117
+[e = _RB2 -> -> 1 `i `b ]
+"118
+[e = _RB3 -> -> 0 `i `b ]
+"119
+[e = _RB4 -> -> 1 `i `b ]
+"120
+[e = _RB5 -> -> 1 `i `b ]
+"121
+[e = _RB6 -> -> 1 `i `b ]
+"122
+[e $U 89  ]
+"123
+[e :U 104 ]
+"124
+[e = _RB0 -> -> 0 `i `b ]
+"125
+[e = _RB1 -> -> 1 `i `b ]
+"126
+[e = _RB2 -> -> 1 `i `b ]
+"127
+[e = _RB3 -> -> 1 `i `b ]
+"128
+[e = _RB4 -> -> 1 `i `b ]
+"129
+[e = _RB5 -> -> 0 `i `b ]
+"130
+[e = _RB6 -> -> 1 `i `b ]
+"131
+[e $U 89  ]
+"132
+[e :U 105 ]
+"133
+[e = _RB0 -> -> 1 `i `b ]
+"134
+[e = _RB1 -> -> 1 `i `b ]
+"135
+[e = _RB2 -> -> 0 `i `b ]
+"136
+[e = _RB3 -> -> 0 `i `b ]
+"137
+[e = _RB4 -> -> 0 `i `b ]
+"138
+[e = _RB5 -> -> 1 `i `b ]
+"139
+[e = _RB6 -> -> 1 `i `b ]
+"140
+[e $U 89  ]
+"141
+[e :U 106 ]
+"142
+[e = _RB0 -> -> 0 `i `b ]
+"143
+[e = _RB1 -> -> 0 `i `b ]
+"144
+[e = _RB2 -> -> 1 `i `b ]
+"145
+[e = _RB3 -> -> 0 `i `b ]
+"146
+[e = _RB4 -> -> 1 `i `b ]
+"147
+[e = _RB5 -> -> 1 `i `b ]
+"148
+[e = _RB6 -> -> 1 `i `b ]
+"149
+[e $U 89  ]
+"150
+[e :U 107 ]
+"151
+[e = _RB0 -> -> 0 `i `b ]
+"152
+[e = _RB1 -> -> 0 `i `b ]
+"153
+[e = _RB2 -> -> 1 `i `b ]
+"154
+[e = _RB3 -> -> 1 `i `b ]
+"155
+[e = _RB4 -> -> 1 `i `b ]
+"156
+[e = _RB5 -> -> 0 `i `b ]
+"157
+[e = _RB6 -> -> 1 `i `b ]
+"158
+[e $U 89  ]
+"159
+[e :U 108 ]
+"160
+[e = _RB0 -> -> 0 `i `b ]
+"161
+[e = _RB1 -> -> 0 `i `b ]
+"162
+[e = _RB2 -> -> 0 `i `b ]
+"163
+[e = _RB3 -> -> 1 `i `b ]
+"164
+[e = _RB4 -> -> 1 `i `b ]
+"165
+[e = _RB5 -> -> 1 `i `b ]
+"166
+[e = _RB6 -> -> 1 `i `b ]
+"167
+[e $U 89  ]
+"168
+[e :U 109 ]
+"169
+[e = _RB0 -> -> 1 `i `b ]
+"170
+[e = _RB1 -> -> 0 `i `b ]
+"171
+[e = _RB2 -> -> 0 `i `b ]
+"172
+[e = _RB3 -> -> 1 `i `b ]
+"173
+[e = _RB4 -> -> 1 `i `b ]
+"174
+[e = _RB5 -> -> 1 `i `b ]
+"175
+[e = _RB6 -> -> 1 `i `b ]
+"176
+[e $U 89  ]
+"177
+}
+[e $U 89  ]
+[e :U 90 ]
+[e [\ -> _value `i , $ -> 16 `i 91
+ , $ -> 17 `i 92
+ , $ -> 0 `i 93
+ , $ -> 1 `i 94
+ , $ -> 2 `i 95
+ , $ -> 3 `i 96
+ , $ -> 4 `i 97
+ , $ -> 5 `i 98
+ , $ -> 6 `i 99
+ , $ -> 7 `i 100
+ , $ -> 8 `i 101
+ , $ -> 9 `i 102
+ , $ -> 10 `i 103
+ , $ -> 11 `i 104
+ , $ -> 12 `i 105
+ , $ -> 13 `i 106
+ , $ -> 14 `i 107
+ , $ -> 15 `i 108
+ 109 ]
+[e :U 89 ]
+"178
+[e :UE 88 ]
+}
+"180
+[v _show_LED1 `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _show_LED1 ]
+[v _c `uc ~T0 @X0 1 r1 ]
+[f ]
+"181
+[e ( _convert_to_segment (1 _c ]
+"182
+[e = _RA4 -> -> 0 `i `b ]
+"183
+[e ( __delay (1 -> * -> -> 6 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"184
+[e = _RA4 -> -> 1 `i `b ]
+"185
+[e :UE 110 ]
+}
+"187
+[v _show_LED2 `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _show_LED2 ]
+[v _c `uc ~T0 @X0 1 r1 ]
+[f ]
+"188
+[e ( _convert_to_segment (1 _c ]
+"189
+[e = _RA6 -> -> 0 `i `b ]
+"190
+[e ( __delay (1 -> * -> -> 6 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"191
+[e = _RA6 -> -> 1 `i `b ]
+"192
+[e :UE 111 ]
+}
+"194
+[v _show_LED3 `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _show_LED3 ]
+[v _c `uc ~T0 @X0 1 r1 ]
+[f ]
+"195
+[e ( _convert_to_segment (1 _c ]
+"196
+[e = _RA7 -> -> 0 `i `b ]
+"197
+[e ( __delay (1 -> * -> -> 6 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"198
+[e = _RA7 -> -> 1 `i `b ]
+"199
+[e :UE 112 ]
+}
+"201
+[v _draw_add `(v ~T0 @X0 1 ef ]
+{
+[e :U _draw_add ]
+[f ]
+"202
+[e ( _show_LED1 (1 -> -> 10 `i `uc ]
+"203
+[e ( _show_LED2 (1 -> -> 11 `i `uc ]
+"204
+[e ( _show_LED3 (1 -> -> 11 `i `uc ]
+"205
+[e :UE 113 ]
+}
+"207
+[v _draw_temp `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _draw_temp ]
+[v _i `uc ~T0 @X0 1 r1 ]
+[f ]
+"208
+[v _d `uc ~T0 @X0 1 a ]
+[e = _d -> / -> _i `i -> 10 `i `uc ]
+"210
+[e $ ! > -> _d `i -> 0 `i 115  ]
+{
+"211
+[e ( _show_LED1 (1 _d ]
+"212
+}
+[e $U 116  ]
+[e :U 115 ]
+{
+"213
+[e ( _show_LED1 (1 -> -> 16 `i `uc ]
+"214
+}
+[e :U 116 ]
+"215
+[e = _d -> - -> _i `i * / -> _i `i -> 10 `i -> 10 `i `uc ]
+"216
+[e ( _show_LED2 (1 _d ]
+"217
+[e ( _show_LED3 (1 -> -> 12 `i `uc ]
+"218
+[e :UE 114 ]
+}
+"220
+[v _draw_needed_amount `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _draw_needed_amount ]
+[v _i `uc ~T0 @X0 1 r1 ]
+[f ]
+"221
+[e ( _show_LED1 (1 -> -> 16 `i `uc ]
+"222
+[e ( _show_LED2 (1 _i ]
+"223
+[e ( _show_LED3 (1 -> -> 16 `i `uc ]
+"224
+[e :UE 117 ]
+}
+"226
+[v _draw_minus `(v ~T0 @X0 1 ef ]
+{
+[e :U _draw_minus ]
+[f ]
+"227
+[e ( _show_LED1 (1 -> -> 16 `i `uc ]
+"228
+[e ( _show_LED2 (1 -> -> 17 `i `uc ]
+"229
+[e ( _show_LED3 (1 -> -> 16 `i `uc ]
+"230
+[e :UE 118 ]
+}
+"232
+[v _draw_to `(v ~T0 @X0 1 ef ]
+{
+[e :U _draw_to ]
+[f ]
+"233
+[e ( _show_LED1 (1 -> -> 15 `i `uc ]
+"234
+[e ( _show_LED2 (1 -> -> 14 `i `uc ]
+"235
+[e ( _show_LED3 (1 -> -> 14 `i `uc ]
+"236
+[e :UE 119 ]
+}
+"238
+[v _draw_hot `(v ~T0 @X0 1 ef ]
+{
+[e :U _draw_hot ]
+[f ]
+"239
+[e ( _show_LED1 (1 -> -> 13 `i `uc ]
+"240
+[e ( _show_LED2 (1 -> -> 14 `i `uc ]
+"241
+[e ( _show_LED3 (1 -> -> 15 `i `uc ]
+"242
+[e :UE 120 ]
+}
+"245
+[v _draw_to_LED `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _draw_to_LED ]
+[v _i `i ~T0 @X0 1 r1 ]
+[f ]
+"246
+[v _d `i ~T0 @X0 1 a ]
+"247
+[e $ ! >= _i -> 0 `i 122  ]
+{
+"249
+[v _d `i ~T0 @X0 1 a ]
+[e = _d / _i -> 100 `i ]
+"250
+[e $ ! > _d -> 0 `i 123  ]
+{
+"251
+[e ( _show_LED1 (1 -> _d `uc ]
+"252
+}
+[e $U 124  ]
+[e :U 123 ]
+{
+"253
+[e ( _show_LED1 (1 -> -> 16 `i `uc ]
+"254
+}
+[e :U 124 ]
+"255
+[e = _d - / _i -> 10 `i * / _i -> 100 `i -> 10 `i ]
+"256
+[e = _RB7 -> -> 1 `i `b ]
+"257
+[e ( _show_LED2 (1 -> _d `uc ]
+"258
+[e = _RB7 -> -> 0 `i `b ]
+"260
+[e = _d - _i * / _i -> 10 `i -> 10 `i ]
+"261
+[e ( _show_LED3 (1 -> _d `uc ]
+"263
+}
+[e $U 125  ]
+[e :U 122 ]
+{
+"266
+[e = _d / -U _i -> 100 `i ]
+"267
+[e $ ! > _d -> 0 `i 126  ]
+{
+"268
+[e ( _show_LED1 (1 -> -> 17 `i `uc ]
+"269
+[e ( _show_LED2 (1 -> _d `uc ]
+"270
+[e = _d + / -U _i -> 10 `i * / _i -> 100 `i -> 10 `i ]
+"271
+[e ( _show_LED3 (1 -> _d `uc ]
+"272
+}
+[e $U 127  ]
+[e :U 126 ]
+{
+"273
+[e ( _show_LED1 (1 -> -> 17 `i `uc ]
+"274
+[e = _d + / -U _i -> 10 `i * / _i -> 100 `i -> 10 `i ]
+"275
+[e = _RB7 -> -> 1 `i `b ]
+"276
+[e ( _show_LED2 (1 -> _d `uc ]
+"277
+[e = _RB7 -> -> 0 `i `b ]
+"279
+[e = _d + -U _i * / _i -> 10 `i -> 10 `i ]
+"280
+[e ( _show_LED3 (1 -> _d `uc ]
+"281
+}
+[e :U 127 ]
+"283
+}
+[e :U 125 ]
+"284
+[e = _RB0 -> -> 0 `i `b ]
+"285
+[e = _RB1 -> -> 0 `i `b ]
+"286
+[e = _RB2 -> -> 0 `i `b ]
+"287
+[e = _RB3 -> -> 0 `i `b ]
+"288
+[e = _RB4 -> -> 0 `i `b ]
+"289
+[e = _RB5 -> -> 0 `i `b ]
+"290
+[e = _RB6 -> -> 0 `i `b ]
+"291
+[e = _RB7 -> -> 0 `i `b ]
+"292
+[e :UE 121 ]
+}
+"295
+[v _init_LED `(v ~T0 @X0 1 ef ]
+{
+[e :U _init_LED ]
+[f ]
+"296
+[e = _RB0 -> -> 1 `i `b ]
+"297
+[e = _RB1 -> -> 1 `i `b ]
+"298
+[e = _RB2 -> -> 1 `i `b ]
+"299
+[e = _RB3 -> -> 1 `i `b ]
+"300
+[e = _RB4 -> -> 1 `i `b ]
+"301
+[e = _RB5 -> -> 1 `i `b ]
+"302
+[e = _RB6 -> -> 1 `i `b ]
+"304
+[e = _RA4 -> -> 0 `i `b ]
+"305
+[e = _RA6 -> -> 0 `i `b ]
+"306
+[e = _RA7 -> -> 0 `i `b ]
+"308
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"310
+[e = _RA4 -> -> 1 `i `b ]
+"311
+[e = _RA6 -> -> 1 `i `b ]
+"312
+[e = _RA7 -> -> 1 `i `b ]
+"313
+[e :UE 128 ]
+}
+"315
+[v _draw_empty `(v ~T0 @X0 1 ef ]
+{
+[e :U _draw_empty ]
+[f ]
+"316
+[e = _RB0 -> -> 0 `i `b ]
+"317
+[e = _RB1 -> -> 0 `i `b ]
+"318
+[e = _RB2 -> -> 0 `i `b ]
+"319
+[e = _RB3 -> -> 0 `i `b ]
+"320
+[e = _RB4 -> -> 0 `i `b ]
+"321
+[e = _RB5 -> -> 0 `i `b ]
+"322
+[e = _RB6 -> -> 0 `i `b ]
+"324
+[e = _RA4 -> -> 0 `i `b ]
+"325
+[e = _RA6 -> -> 0 `i `b ]
+"326
+[e = _RA7 -> -> 0 `i `b ]
+"328
+[e ( __delay (1 -> * -> -> 6 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"330
+[e = _RA4 -> -> 1 `i `b ]
+"331
+[e = _RA6 -> -> 1 `i `b ]
+"332
+[e = _RA7 -> -> 1 `i `b ]
+"333
+[e :UE 129 ]
+}

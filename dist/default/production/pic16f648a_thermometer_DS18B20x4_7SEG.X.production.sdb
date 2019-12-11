@@ -1,0 +1,199 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F648A ]
+[d frameptr 0 ]
+"5 /opt/microchip/xc8/v2.10/pic/sources/c90/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.10/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 /home/user/MPLABXProjects/pic16f648a_thermometer_DS18B20x4_7SEG.X/7-segment-x-3.c
+[v _convert_to_segment convert_to_segment `(v  1 e 1 0 ]
+"180
+[v _show_LED1 show_LED1 `(v  1 e 1 0 ]
+"187
+[v _show_LED2 show_LED2 `(v  1 e 1 0 ]
+"194
+[v _show_LED3 show_LED3 `(v  1 e 1 0 ]
+"245
+[v _draw_to_LED draw_to_LED `(v  1 e 1 0 ]
+"30 /home/user/MPLABXProjects/pic16f648a_thermometer_DS18B20x4_7SEG.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"10 /home/user/MPLABXProjects/pic16f648a_thermometer_DS18B20x4_7SEG.X/onewire.c
+[v _init_ds init_ds `(uc  1 e 1 0 ]
+"24
+[v _TX TX `(v  1 e 1 0 ]
+"48
+[v _RX RX `(uc  1 e 1 0 ]
+"64
+[v _get_temp get_temp `(i  1 e 2 0 ]
+"7 /home/user/MPLABXProjects/pic16f648a_thermometer_DS18B20x4_7SEG.X/onewire.h
+[v _nosensor nosensor `uc  1 e 1 0 ]
+"8
+[v _init init `uc  1 e 1 0 ]
+"166 /opt/microchip/xc8/v2.10/pic/include/pic16f648a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"767
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+"907
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"969
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1458
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"1470
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"1476
+[v _RA6 RA6 `VEb  1 e 0 @46 ]
+"1479
+[v _RA7 RA7 `VEb  1 e 0 @47 ]
+"1482
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"1485
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"1488
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"1491
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"1494
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"1497
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"1500
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"1503
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"1608
+[v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
+"27 /home/user/MPLABXProjects/pic16f648a_thermometer_DS18B20x4_7SEG.X/main.c
+[v _temp temp `i  1 e 2 0 ]
+"28
+[v _counter counter `i  1 e 2 0 ]
+"30
+[v _main main `(v  1 e 1 0 ]
+{
+"74
+} 0
+"64 /home/user/MPLABXProjects/pic16f648a_thermometer_DS18B20x4_7SEG.X/onewire.c
+[v _get_temp get_temp `(i  1 e 2 0 ]
+{
+"69
+[v get_temp@temperature temperature `i  1 a 2 16 ]
+"67
+[v get_temp@temp2 temp2 `uc  1 a 1 21 ]
+"66
+[v get_temp@temp1 temp1 `uc  1 a 1 20 ]
+"68
+[v get_temp@temp_drob temp_drob `uc  1 a 1 19 ]
+"70
+[v get_temp@signloc signloc `uc  1 a 1 18 ]
+"97
+} 0
+"10
+[v _init_ds init_ds `(uc  1 e 1 0 ]
+{
+"11
+[v init_ds@b b `uc  1 a 1 1 ]
+"22
+} 0
+"24
+[v _TX TX `(v  1 e 1 0 ]
+{
+[v TX@cmd cmd `uc  1 a 1 wreg ]
+"27
+[v TX@control0 control0 `uc  1 a 1 4 ]
+"26
+[v TX@i i `uc  1 a 1 3 ]
+"25
+[v TX@temp temp `uc  1 a 1 2 ]
+"24
+[v TX@cmd cmd `uc  1 a 1 wreg ]
+"26
+[v TX@cmd cmd `uc  1 a 1 1 ]
+"46
+} 0
+"48
+[v _RX RX `(uc  1 e 1 0 ]
+{
+"50
+[v RX@i i `uc  1 a 1 2 ]
+"49
+[v RX@d d `uc  1 a 1 1 ]
+"62
+} 0
+"245 /home/user/MPLABXProjects/pic16f648a_thermometer_DS18B20x4_7SEG.X/7-segment-x-3.c
+[v _draw_to_LED draw_to_LED `(v  1 e 1 0 ]
+{
+"249
+[v draw_to_LED@d_131 d `i  1 a 2 6 ]
+"246
+[v draw_to_LED@d d `i  1 a 2 8 ]
+"245
+[v draw_to_LED@i i `i  1 p 2 4 ]
+"292
+} 0
+"194
+[v _show_LED3 show_LED3 `(v  1 e 1 0 ]
+{
+[v show_LED3@c c `uc  1 a 1 wreg ]
+[v show_LED3@c c `uc  1 a 1 wreg ]
+[v show_LED3@c c `uc  1 a 1 5 ]
+"199
+} 0
+"187
+[v _show_LED2 show_LED2 `(v  1 e 1 0 ]
+{
+[v show_LED2@c c `uc  1 a 1 wreg ]
+[v show_LED2@c c `uc  1 a 1 wreg ]
+[v show_LED2@c c `uc  1 a 1 5 ]
+"192
+} 0
+"180
+[v _show_LED1 show_LED1 `(v  1 e 1 0 ]
+{
+[v show_LED1@c c `uc  1 a 1 wreg ]
+[v show_LED1@c c `uc  1 a 1 wreg ]
+[v show_LED1@c c `uc  1 a 1 5 ]
+"185
+} 0
+"4
+[v _convert_to_segment convert_to_segment `(v  1 e 1 0 ]
+{
+[v convert_to_segment@value value `uc  1 a 1 wreg ]
+[v convert_to_segment@value value `uc  1 a 1 wreg ]
+[v convert_to_segment@value value `uc  1 a 1 2 ]
+"178
+} 0
+"15 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 /opt/microchip/xc8/v2.10/pic/sources/c90/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+[v ___awdiv@dividend dividend `i  1 p 2 8 ]
+"41
+} 0

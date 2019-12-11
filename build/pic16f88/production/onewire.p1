@@ -1,0 +1,475 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1087 /opt/microchip/xc8/v2.10/pic/include/pic16f88.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1087: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"166
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+[v F758 `(v ~T0 @X0 1 tf1`ul ]
+"92 /opt/microchip/xc8/v2.10/pic/include/pic.h
+[v __delay `JF758 ~T0 @X0 0 e ]
+[p i __delay ]
+"2596 /opt/microchip/xc8/v2.10/pic/include/pic16f88.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2596: extern volatile __bit TRISA0 __attribute__((address(0x428)));
+[v _TRISA0 `Vb ~T0 @X0 0 e@1064 ]
+"2389
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2389: extern volatile __bit RA0 __attribute__((address(0x28)));
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"54 /opt/microchip/xc8/v2.10/pic/include/pic16f88.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 292: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"312
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 312: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"390
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 390: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"446
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 446: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"480
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 480: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"487
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 487: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"494
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 494: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"501
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 501: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"573
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 573: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"580
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 580: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"651
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 651: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"658
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 658: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"728
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 728: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"735
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 735: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"742
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 742: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"749
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 749: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"807
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 807: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"902
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 902: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"909
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 909: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"916
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 916: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"923
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 923: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1019
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1019: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1089
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1089: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1151
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1151: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1213
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1213: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1269
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1269: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1303
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1303: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1337
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1337: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1408
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1408: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1466
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1466: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1473
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1473: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1480
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1480: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1649
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1649: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"1730
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1730: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"1737
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1737: __asm("ANSEL equ 09Bh");
+[; <" ANSEL equ 09Bh ;# ">
+"1793
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1793: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"1863
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1863: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"1928
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1928: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"1935
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1935: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"1983
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 1983: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"2041
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2041: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2048
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2048: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2055
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2055: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2062
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2062: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2069
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2069: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2120
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f88.h: 2120: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"7 ./onewire.h
+[; ;./onewire.h: 7: unsigned char nosensor;
+[v _nosensor `uc ~T0 @X0 1 e ]
+"8
+[; ;./onewire.h: 8: unsigned char init;
+[v _init `uc ~T0 @X0 1 e ]
+"10 onewire.c
+[; ;onewire.c: 10: unsigned char init_ds(){
+[v _init_ds `(uc ~T0 @X0 1 ef ]
+{
+[e :U _init_ds ]
+[f ]
+"11
+[; ;onewire.c: 11:     unsigned char b;
+[v _b `uc ~T0 @X0 1 a ]
+"12
+[; ;onewire.c: 12:     unsigned char control0 = 0b11111110;
+[v _control0 `uc ~T0 @X0 1 a ]
+[e = _control0 -> -> 254 `i `uc ]
+"14
+[; ;onewire.c: 14:     TRISA &= control0;
+[e =& _TRISA -> _control0 `Vuc ]
+"15
+[; ;onewire.c: 15:     PORTA &= control0;
+[e =& _PORTA -> _control0 `Vuc ]
+"16
+[; ;onewire.c: 16:     _delay((unsigned long)((500)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"17
+[; ;onewire.c: 17:     TRISA |= ~control0;
+[e =| _TRISA -> ~ -> _control0 `i `Vuc ]
+"18
+[; ;onewire.c: 18:     _delay((unsigned long)((65)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 65 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"19
+[; ;onewire.c: 19:     b = PORTA;
+[e = _b _PORTA ]
+"20
+[; ;onewire.c: 20:     _delay((unsigned long)((450)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 450 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"21
+[; ;onewire.c: 21:     return b;
+[e ) _b ]
+[e $UE 93  ]
+"22
+[; ;onewire.c: 22: }
+[e :UE 93 ]
+}
+"24
+[; ;onewire.c: 24: void TX(unsigned char cmd){
+[v _TX `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _TX ]
+[v _cmd `uc ~T0 @X0 1 r1 ]
+[f ]
+"25
+[; ;onewire.c: 25:     unsigned char temp = 0;
+[v _temp `uc ~T0 @X0 1 a ]
+[e = _temp -> -> 0 `i `uc ]
+"26
+[; ;onewire.c: 26:     unsigned char i = 0;
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+"27
+[; ;onewire.c: 27:     unsigned char control0 = 0b11111110;
+[v _control0 `uc ~T0 @X0 1 a ]
+[e = _control0 -> -> 254 `i `uc ]
+"28
+[; ;onewire.c: 28:     temp = cmd;
+[e = _temp _cmd ]
+"29
+[; ;onewire.c: 29:     for (i=0;i<8;i++) {
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 95  ]
+[e $U 96  ]
+[e :U 95 ]
+{
+"30
+[; ;onewire.c: 30:         if (temp&0x01) {
+[e $ ! != & -> _temp `i -> 1 `i -> 0 `i 98  ]
+{
+"31
+[; ;onewire.c: 31:             TRISA &= control0;
+[e =& _TRISA -> _control0 `Vuc ]
+"32
+[; ;onewire.c: 32:             PORTA &= control0;
+[e =& _PORTA -> _control0 `Vuc ]
+"33
+[; ;onewire.c: 33:             _delay((unsigned long)((5)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"34
+[; ;onewire.c: 34:             TRISA |= ~control0;
+[e =| _TRISA -> ~ -> _control0 `i `Vuc ]
+"35
+[; ;onewire.c: 35:             _delay((unsigned long)((70)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 70 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"36
+[; ;onewire.c: 36:         } else {
+}
+[e $U 99  ]
+[e :U 98 ]
+{
+"37
+[; ;onewire.c: 37:             TRISA &= control0;
+[e =& _TRISA -> _control0 `Vuc ]
+"38
+[; ;onewire.c: 38:             PORTA &= control0;
+[e =& _PORTA -> _control0 `Vuc ]
+"39
+[; ;onewire.c: 39:             _delay((unsigned long)((70)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 70 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"40
+[; ;onewire.c: 40:             TRISA |= ~control0;
+[e =| _TRISA -> ~ -> _control0 `i `Vuc ]
+"41
+[; ;onewire.c: 41:             _delay((unsigned long)((5)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"43
+[; ;onewire.c: 43:         }
+}
+[e :U 99 ]
+"44
+[; ;onewire.c: 44:         temp >>= 1;
+[e =>> _temp -> -> 1 `i `uc ]
+"45
+[; ;onewire.c: 45:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 95  ]
+[e :U 96 ]
+}
+"46
+[; ;onewire.c: 46: }
+[e :UE 94 ]
+}
+"48
+[; ;onewire.c: 48: unsigned char RX() {
+[v _RX `(uc ~T0 @X0 1 ef ]
+{
+[e :U _RX ]
+[f ]
+"49
+[; ;onewire.c: 49:     unsigned char d = 0;
+[v _d `uc ~T0 @X0 1 a ]
+[e = _d -> -> 0 `i `uc ]
+"50
+[; ;onewire.c: 50:     unsigned char i = 0;
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+"51
+[; ;onewire.c: 51:     for (i=0;i<8;i++){
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 101  ]
+[e $U 102  ]
+[e :U 101 ]
+{
+"52
+[; ;onewire.c: 52:         TRISA0 = 0;
+[e = _TRISA0 -> -> 0 `i `b ]
+"53
+[; ;onewire.c: 53:         RA0 = 0;
+[e = _RA0 -> -> 0 `i `b ]
+"54
+[; ;onewire.c: 54:         _delay((unsigned long)((5)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"55
+[; ;onewire.c: 55:         TRISA0 = 1;
+[e = _TRISA0 -> -> 1 `i `b ]
+"56
+[; ;onewire.c: 56:         _delay((unsigned long)((4)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"57
+[; ;onewire.c: 57:         d>>=1;
+[e =>> _d -> -> 1 `i `uc ]
+"58
+[; ;onewire.c: 58:         if (RA0 == 1) d |= 0x80;
+[e $ ! == -> _RA0 `i -> 1 `i 104  ]
+[e =| _d -> -> 128 `i `uc ]
+[e :U 104 ]
+"59
+[; ;onewire.c: 59:         _delay((unsigned long)((60)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 60 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"60
+[; ;onewire.c: 60:     };
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 101  ]
+[e :U 102 ]
+}
+"61
+[; ;onewire.c: 61:     return d;
+[e ) _d ]
+[e $UE 100  ]
+"62
+[; ;onewire.c: 62: }
+[e :UE 100 ]
+}
+"64
+[; ;onewire.c: 64: signed int get_temp() {
+[v _get_temp `(i ~T0 @X0 1 ef ]
+{
+[e :U _get_temp ]
+[f ]
+"66
+[; ;onewire.c: 66:     unsigned char temp1 = 0;
+[v _temp1 `uc ~T0 @X0 1 a ]
+[e = _temp1 -> -> 0 `i `uc ]
+"67
+[; ;onewire.c: 67:     unsigned char temp2 = 0;
+[v _temp2 `uc ~T0 @X0 1 a ]
+[e = _temp2 -> -> 0 `i `uc ]
+"68
+[; ;onewire.c: 68:     unsigned char temp_drob;
+[v _temp_drob `uc ~T0 @X0 1 a ]
+"69
+[; ;onewire.c: 69:     signed int temperature;
+[v _temperature `i ~T0 @X0 1 a ]
+"70
+[; ;onewire.c: 70:     unsigned char signloc;
+[v _signloc `uc ~T0 @X0 1 a ]
+"72
+[; ;onewire.c: 72:     init = init_ds() & 0b00000001;
+[e = _init -> & -> ( _init_ds ..  `i -> 1 `i `uc ]
+"73
+[; ;onewire.c: 73:     if (!init) {
+[e $ ! ! != -> _init `i -> 0 `i 106  ]
+{
+"75
+[; ;onewire.c: 75:         TX(0xCC);
+[e ( _TX (1 -> -> 204 `i `uc ]
+"76
+[; ;onewire.c: 76:         TX(0xBE);
+[e ( _TX (1 -> -> 190 `i `uc ]
+"77
+[; ;onewire.c: 77:         temp1 = RX();
+[e = _temp1 ( _RX ..  ]
+"78
+[; ;onewire.c: 78:         temp2 = RX();
+[e = _temp2 ( _RX ..  ]
+"80
+[; ;onewire.c: 80:         signloc = (temp2 & 0x80) >> 7;
+[e = _signloc -> >> & -> _temp2 `i -> 128 `i -> 7 `i `uc ]
+"81
+[; ;onewire.c: 81:         temp_drob = temp1 & 0b00001111;
+[e = _temp_drob -> & -> _temp1 `i -> 15 `i `uc ]
+"83
+[; ;onewire.c: 83:         temp1 >>= 4;
+[e =>> _temp1 -> -> 4 `i `uc ]
+"84
+[; ;onewire.c: 84:         temp2 <<= 4;
+[e =<< _temp2 -> -> 4 `i `uc ]
+"85
+[; ;onewire.c: 85:         temp2 &= 0b01110000;
+[e =& _temp2 -> -> 112 `i `uc ]
+"86
+[; ;onewire.c: 86:         temp2 |= temp1;
+[e =| _temp2 -> _temp1 `uc ]
+"87
+[; ;onewire.c: 87:         nosensor = 0;
+[e = _nosensor -> -> 0 `i `uc ]
+"89
+[; ;onewire.c: 89:         if (signloc == 1) {
+[e $ ! == -> _signloc `i -> 1 `i 107  ]
+{
+"90
+[; ;onewire.c: 90:             return temperature = -((127-temp2)*10 + (10 - temp_drob*10/16));
+[e ) = _temperature -U + * - -> 127 `i -> _temp2 `i -> 10 `i - -> 10 `i / * -> _temp_drob `i -> 10 `i -> 16 `i ]
+[e $UE 105  ]
+"91
+[; ;onewire.c: 91:         };
+}
+[e :U 107 ]
+"92
+[; ;onewire.c: 92:         return temperature = temp2*10 + temp_drob*10/16;
+[e ) = _temperature + * -> _temp2 `i -> 10 `i / * -> _temp_drob `i -> 10 `i -> 16 `i ]
+[e $UE 105  ]
+"93
+[; ;onewire.c: 93:     } else {
+}
+[e $U 108  ]
+[e :U 106 ]
+{
+"94
+[; ;onewire.c: 94:         nosensor = 1;
+[e = _nosensor -> -> 1 `i `uc ]
+"95
+[; ;onewire.c: 95:         return 0;
+[e ) -> 0 `i ]
+[e $UE 105  ]
+"96
+[; ;onewire.c: 96:     };
+}
+[e :U 108 ]
+"97
+[; ;onewire.c: 97: }
+[e :UE 105 ]
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>thermometer_DS18B20x4_7SEG</name>
+            <creation-uuid>132c3285-f996-4065-b2e5-f1255953f5ec</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../../Arduino/esp8266_arduino</sourceRootElem>
+                <sourceRootElem>esp8266_arduino</sourceRootElem>
+                <sourceRootElem>../../Dropbox/Arduino/esp8266_arduino/HelloServer_1</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>pic16F648a</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>pic16f684</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>pic16f88</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>pic16F628a</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

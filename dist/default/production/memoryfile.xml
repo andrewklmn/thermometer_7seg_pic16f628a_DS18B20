@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production/pic16f648a_thermometer_DS18B20x4_7SEG.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>4096</length>
+      <used>1354</used>
+      <free>2742</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>256</length>
+      <used>44</used>
+      <free>212</free>
+    </memory>
+  </executable>
+</project>

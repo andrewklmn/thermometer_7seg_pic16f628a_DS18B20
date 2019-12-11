@@ -1,0 +1,41 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# default configuration
+CND_ARTIFACT_DIR_default=dist/default/production
+CND_ARTIFACT_NAME_default=thermometer_DS18B20x4_7SEG.X.production.hex
+CND_ARTIFACT_PATH_default=dist/default/production/thermometer_DS18B20x4_7SEG.X.production.hex
+CND_PACKAGE_DIR_default=${CND_DISTDIR}/default/package
+CND_PACKAGE_NAME_default=thermometerds18b20x47seg.x.tar
+CND_PACKAGE_PATH_default=${CND_DISTDIR}/default/package/thermometerds18b20x47seg.x.tar
+# pic16F648a configuration
+CND_ARTIFACT_DIR_pic16F648a=dist/pic16F648a/production
+CND_ARTIFACT_NAME_pic16F648a=thermometer_DS18B20x4_7SEG.X.production.hex
+CND_ARTIFACT_PATH_pic16F648a=dist/pic16F648a/production/thermometer_DS18B20x4_7SEG.X.production.hex
+CND_PACKAGE_DIR_pic16F648a=${CND_DISTDIR}/pic16F648a/package
+CND_PACKAGE_NAME_pic16F648a=thermometerds18b20x47seg.x.tar
+CND_PACKAGE_PATH_pic16F648a=${CND_DISTDIR}/pic16F648a/package/thermometerds18b20x47seg.x.tar
+# pic16f684 configuration
+CND_ARTIFACT_DIR_pic16f684=dist/pic16f684/production
+CND_ARTIFACT_NAME_pic16f684=thermometer_DS18B20x4_7SEG.X.production.hex
+CND_ARTIFACT_PATH_pic16f684=dist/pic16f684/production/thermometer_DS18B20x4_7SEG.X.production.hex
+CND_PACKAGE_DIR_pic16f684=${CND_DISTDIR}/pic16f684/package
+CND_PACKAGE_NAME_pic16f684=thermometerds18b20x47seg.x.tar
+CND_PACKAGE_PATH_pic16f684=${CND_DISTDIR}/pic16f684/package/thermometerds18b20x47seg.x.tar
+# pic16f88 configuration
+CND_ARTIFACT_DIR_pic16f88=dist/pic16f88/production
+CND_ARTIFACT_NAME_pic16f88=thermometer_DS18B20x4_7SEG.X.production.hex
+CND_ARTIFACT_PATH_pic16f88=dist/pic16f88/production/thermometer_DS18B20x4_7SEG.X.production.hex
+CND_PACKAGE_DIR_pic16f88=${CND_DISTDIR}/pic16f88/package
+CND_PACKAGE_NAME_pic16f88=thermometerds18b20x47seg.x.tar
+CND_PACKAGE_PATH_pic16f88=${CND_DISTDIR}/pic16f88/package/thermometerds18b20x47seg.x.tar
+# pic16F628a configuration
+CND_ARTIFACT_DIR_pic16F628a=dist/pic16F628a/production
+CND_ARTIFACT_NAME_pic16F628a=thermometer_DS18B20x4_7SEG.X.production.hex
+CND_ARTIFACT_PATH_pic16F628a=dist/pic16F628a/production/thermometer_DS18B20x4_7SEG.X.production.hex
+CND_PACKAGE_DIR_pic16F628a=${CND_DISTDIR}/pic16F628a/package
+CND_PACKAGE_NAME_pic16F628a=thermometerds18b20x47seg.x.tar
+CND_PACKAGE_PATH_pic16F628a=${CND_DISTDIR}/pic16F628a/package/thermometerds18b20x47seg.x.tar
