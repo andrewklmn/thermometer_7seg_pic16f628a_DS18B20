@@ -4,9 +4,9 @@
  * Created on 6 декабря 2019, 22:00
  */
 
-#define _XTAL_FREQ 4000000      // тактовая частота
-#define TEMP_DELTA 34
-
+#define _XTAL_FREQ 4000000                      // тактовая частота
+#define TEMP_DELTA 14                           // на сколько десятых градуса уменьшить измерение
+#define LOOP_COUNTER_VALUE_FOR_MEASURMENT 100   // кол-во циклов между измерениями
 
 // CONFIG
 #pragma config FOSC = INTOSCIO  // Oscillator Selection bits (INTOSC oscillator: I/O function on RA6/OSC2/CLKOUT pin, I/O function on RA7/OSC1/CLKIN)
@@ -30,7 +30,7 @@
 
 signed int temp = 1000;
 int counter= 0;
-int start_delay = 1;
+int start_delay = 2;
 
 void main(void) {
     
@@ -89,12 +89,12 @@ void main(void) {
         };
 
         counter++;
-        if (counter>100) {
+        if (counter > LOOP_COUNTER_VALUE_FOR_MEASURMENT) {
             if (start_delay > 0) {
                 start_delay--; 
-                temp = get_temp(0)-TEMP_DELTA-15;
+                temp = get_temp()-TEMP_DELTA;
             } else {
-                temp = get_temp(0)-TEMP_DELTA;
+                temp = get_temp()-TEMP_DELTA;
             };
             counter=0;
         };

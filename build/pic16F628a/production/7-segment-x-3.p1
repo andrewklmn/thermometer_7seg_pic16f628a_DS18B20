@@ -1,151 +1,151 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"1482 /opt/microchip/xc8/v2.10/pic/include/pic16f628a.h
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1482: extern volatile __bit RB0 __attribute__((address(0x30)));
+"1486 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1486: extern volatile __bit RB0 __attribute__((address(0x30)));
 [v _RB0 `Vb ~T0 @X0 0 e@48 ]
-"1485
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1485: extern volatile __bit RB1 __attribute__((address(0x31)));
+"1489
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1489: extern volatile __bit RB1 __attribute__((address(0x31)));
 [v _RB1 `Vb ~T0 @X0 0 e@49 ]
-"1488
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1488: extern volatile __bit RB2 __attribute__((address(0x32)));
+"1492
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1492: extern volatile __bit RB2 __attribute__((address(0x32)));
 [v _RB2 `Vb ~T0 @X0 0 e@50 ]
-"1491
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1491: extern volatile __bit RB3 __attribute__((address(0x33)));
+"1495
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1495: extern volatile __bit RB3 __attribute__((address(0x33)));
 [v _RB3 `Vb ~T0 @X0 0 e@51 ]
-"1494
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1494: extern volatile __bit RB4 __attribute__((address(0x34)));
+"1498
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1498: extern volatile __bit RB4 __attribute__((address(0x34)));
 [v _RB4 `Vb ~T0 @X0 0 e@52 ]
-"1497
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1497: extern volatile __bit RB5 __attribute__((address(0x35)));
+"1501
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1501: extern volatile __bit RB5 __attribute__((address(0x35)));
 [v _RB5 `Vb ~T0 @X0 0 e@53 ]
-"1500
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1500: extern volatile __bit RB6 __attribute__((address(0x36)));
+"1504
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1504: extern volatile __bit RB6 __attribute__((address(0x36)));
 [v _RB6 `Vb ~T0 @X0 0 e@54 ]
-"1470
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1470: extern volatile __bit RA4 __attribute__((address(0x2C)));
+"1474
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1474: extern volatile __bit RA4 __attribute__((address(0x2C)));
 [v _RA4 `Vb ~T0 @X0 0 e@44 ]
-[v F461 `(v ~T0 @X0 1 tf1`ul ]
-"92 /opt/microchip/xc8/v2.10/pic/include/pic.h
-[v __delay `JF461 ~T0 @X0 0 e ]
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 /opt/microchip/xc8/v2.50/pic/include/builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
 [p i __delay ]
-"1476 /opt/microchip/xc8/v2.10/pic/include/pic16f628a.h
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1476: extern volatile __bit RA6 __attribute__((address(0x2E)));
+"1480 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1480: extern volatile __bit RA6 __attribute__((address(0x2E)));
 [v _RA6 `Vb ~T0 @X0 0 e@46 ]
-"1479
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1479: extern volatile __bit RA7 __attribute__((address(0x2F)));
+"1483
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1483: extern volatile __bit RA7 __attribute__((address(0x2F)));
 [v _RA7 `Vb ~T0 @X0 0 e@47 ]
-"1503
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1503: extern volatile __bit RB7 __attribute__((address(0x37)));
+"1507
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1507: extern volatile __bit RB7 __attribute__((address(0x37)));
 [v _RB7 `Vb ~T0 @X0 0 e@55 ]
-"54 /opt/microchip/xc8/v2.10/pic/include/pic16f628a.h
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 54: __asm("INDF equ 00h");
+"54 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 54: __asm("INDF equ 00h");
 [; <" INDF equ 00h ;# ">
 "61
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 61: __asm("TMR0 equ 01h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 61: __asm("TMR0 equ 01h");
 [; <" TMR0 equ 01h ;# ">
 "68
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 68: __asm("PCL equ 02h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 68: __asm("PCL equ 02h");
 [; <" PCL equ 02h ;# ">
 "75
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 75: __asm("STATUS equ 03h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 75: __asm("STATUS equ 03h");
 [; <" STATUS equ 03h ;# ">
 "161
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 161: __asm("FSR equ 04h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 161: __asm("FSR equ 04h");
 [; <" FSR equ 04h ;# ">
 "168
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 168: __asm("PORTA equ 05h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 168: __asm("PORTA equ 05h");
 [; <" PORTA equ 05h ;# ">
 "230
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 230: __asm("PORTB equ 06h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 230: __asm("PORTB equ 06h");
 [; <" PORTB equ 06h ;# ">
 "292
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 292: __asm("PCLATH equ 0Ah");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 292: __asm("PCLATH equ 0Ah");
 [; <" PCLATH equ 0Ah ;# ">
 "312
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 312: __asm("INTCON equ 0Bh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 312: __asm("INTCON equ 0Bh");
 [; <" INTCON equ 0Bh ;# ">
 "390
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 390: __asm("PIR1 equ 0Ch");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 390: __asm("PIR1 equ 0Ch");
 [; <" PIR1 equ 0Ch ;# ">
 "447
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 447: __asm("TMR1 equ 0Eh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 447: __asm("TMR1 equ 0Eh");
 [; <" TMR1 equ 0Eh ;# ">
 "454
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 454: __asm("TMR1L equ 0Eh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 454: __asm("TMR1L equ 0Eh");
 [; <" TMR1L equ 0Eh ;# ">
 "461
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 461: __asm("TMR1H equ 0Fh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 461: __asm("TMR1H equ 0Fh");
 [; <" TMR1H equ 0Fh ;# ">
 "468
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 468: __asm("T1CON equ 010h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 468: __asm("T1CON equ 010h");
 [; <" T1CON equ 010h ;# ">
 "527
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 527: __asm("TMR2 equ 011h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 527: __asm("TMR2 equ 011h");
 [; <" TMR2 equ 011h ;# ">
 "534
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 534: __asm("T2CON equ 012h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 534: __asm("T2CON equ 012h");
 [; <" T2CON equ 012h ;# ">
 "605
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 605: __asm("CCPR1 equ 015h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 605: __asm("CCPR1 equ 015h");
 [; <" CCPR1 equ 015h ;# ">
 "612
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 612: __asm("CCPR1L equ 015h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 612: __asm("CCPR1L equ 015h");
 [; <" CCPR1L equ 015h ;# ">
 "619
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 619: __asm("CCPR1H equ 016h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 619: __asm("CCPR1H equ 016h");
 [; <" CCPR1H equ 016h ;# ">
 "626
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 626: __asm("CCP1CON equ 017h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 626: __asm("CCP1CON equ 017h");
 [; <" CCP1CON equ 017h ;# ">
 "684
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 684: __asm("RCSTA equ 018h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 684: __asm("RCSTA equ 018h");
 [; <" RCSTA equ 018h ;# ">
 "755
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 755: __asm("TXREG equ 019h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 755: __asm("TXREG equ 019h");
 [; <" TXREG equ 019h ;# ">
 "762
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 762: __asm("RCREG equ 01Ah");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 762: __asm("RCREG equ 01Ah");
 [; <" RCREG equ 01Ah ;# ">
 "769
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 769: __asm("CMCON equ 01Fh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 769: __asm("CMCON equ 01Fh");
 [; <" CMCON equ 01Fh ;# ">
 "839
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 839: __asm("OPTION_REG equ 081h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 839: __asm("OPTION_REG equ 081h");
 [; <" OPTION_REG equ 081h ;# ">
 "909
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 909: __asm("TRISA equ 085h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 909: __asm("TRISA equ 085h");
 [; <" TRISA equ 085h ;# ">
 "971
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 971: __asm("TRISB equ 086h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 971: __asm("TRISB equ 086h");
 [; <" TRISB equ 086h ;# ">
 "1033
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1033: __asm("PIE1 equ 08Ch");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1033: __asm("PIE1 equ 08Ch");
 [; <" PIE1 equ 08Ch ;# ">
 "1090
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1090: __asm("PCON equ 08Eh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1090: __asm("PCON equ 08Eh");
 [; <" PCON equ 08Eh ;# ">
 "1139
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1139: __asm("PR2 equ 092h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1139: __asm("PR2 equ 092h");
 [; <" PR2 equ 092h ;# ">
 "1146
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1146: __asm("TXSTA equ 098h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1146: __asm("TXSTA equ 098h");
 [; <" TXSTA equ 098h ;# ">
 "1203
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1203: __asm("SPBRG equ 099h");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1203: __asm("SPBRG equ 099h");
 [; <" SPBRG equ 099h ;# ">
 "1210
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1210: __asm("EEDATA equ 09Ah");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1210: __asm("EEDATA equ 09Ah");
 [; <" EEDATA equ 09Ah ;# ">
 "1217
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1217: __asm("EEADR equ 09Bh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1217: __asm("EEADR equ 09Bh");
 [; <" EEADR equ 09Bh ;# ">
 "1224
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1224: __asm("EECON1 equ 09Ch");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1224: __asm("EECON1 equ 09Ch");
 [; <" EECON1 equ 09Ch ;# ">
 "1262
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1262: __asm("EECON2 equ 09Dh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1262: __asm("EECON2 equ 09Dh");
 [; <" EECON2 equ 09Dh ;# ">
 "1269
-[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f628a.h: 1269: __asm("VRCON equ 09Fh");
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f628a.h: 1269: __asm("VRCON equ 09Fh");
 [; <" VRCON equ 09Fh ;# ">
 "4 7-segment-x-3.c
 [v _convert_to_segment `(v ~T0 @X0 1 ef1`uc ]
@@ -154,10 +154,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _value `uc ~T0 @X0 1 r1 ]
 [f ]
 "5
-[e $U 53  ]
+[e $U 57  ]
 {
 "6
-[e :U 54 ]
+[e :U 58 ]
 "7
 [e = _RB0 -> -> 0 `i `b ]
 "8
@@ -173,9 +173,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "13
 [e = _RB6 -> -> 0 `i `b ]
 "14
-[e $U 52  ]
+[e $U 56  ]
 "15
-[e :U 55 ]
+[e :U 59 ]
 "16
 [e = _RB0 -> -> 0 `i `b ]
 "17
@@ -191,9 +191,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22
 [e = _RB6 -> -> 1 `i `b ]
 "23
-[e $U 52  ]
+[e $U 56  ]
 "24
-[e :U 56 ]
+[e :U 60 ]
 "25
 [e = _RB0 -> -> 1 `i `b ]
 "26
@@ -209,9 +209,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "31
 [e = _RB6 -> -> 0 `i `b ]
 "32
-[e $U 52  ]
+[e $U 56  ]
 "33
-[e :U 57 ]
+[e :U 61 ]
 "34
 [e = _RB0 -> -> 0 `i `b ]
 "35
@@ -227,9 +227,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "40
 [e = _RB6 -> -> 0 `i `b ]
 "41
-[e $U 52  ]
+[e $U 56  ]
 "42
-[e :U 58 ]
+[e :U 62 ]
 "43
 [e = _RB0 -> -> 1 `i `b ]
 "44
@@ -245,9 +245,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "49
 [e = _RB6 -> -> 1 `i `b ]
 "50
-[e $U 52  ]
+[e $U 56  ]
 "51
-[e :U 59 ]
+[e :U 63 ]
 "52
 [e = _RB0 -> -> 1 `i `b ]
 "53
@@ -263,9 +263,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "58
 [e = _RB6 -> -> 1 `i `b ]
 "59
-[e $U 52  ]
+[e $U 56  ]
 "60
-[e :U 60 ]
+[e :U 64 ]
 "61
 [e = _RB0 -> -> 0 `i `b ]
 "62
@@ -281,9 +281,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "67
 [e = _RB6 -> -> 1 `i `b ]
 "68
-[e $U 52  ]
+[e $U 56  ]
 "69
-[e :U 61 ]
+[e :U 65 ]
 "70
 [e = _RB0 -> -> 1 `i `b ]
 "71
@@ -299,9 +299,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "76
 [e = _RB6 -> -> 1 `i `b ]
 "77
-[e $U 52  ]
+[e $U 56  ]
 "78
-[e :U 62 ]
+[e :U 66 ]
 "79
 [e = _RB0 -> -> 1 `i `b ]
 "80
@@ -317,9 +317,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "85
 [e = _RB6 -> -> 1 `i `b ]
 "86
-[e $U 52  ]
+[e $U 56  ]
 "87
-[e :U 63 ]
+[e :U 67 ]
 "88
 [e = _RB0 -> -> 1 `i `b ]
 "89
@@ -335,9 +335,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "94
 [e = _RB6 -> -> 0 `i `b ]
 "95
-[e $U 52  ]
+[e $U 56  ]
 "96
-[e :U 64 ]
+[e :U 68 ]
 "97
 [e = _RB0 -> -> 1 `i `b ]
 "98
@@ -353,9 +353,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "103
 [e = _RB6 -> -> 1 `i `b ]
 "104
-[e $U 52  ]
+[e $U 56  ]
 "105
-[e :U 65 ]
+[e :U 69 ]
 "106
 [e = _RB0 -> -> 1 `i `b ]
 "107
@@ -371,9 +371,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "112
 [e = _RB6 -> -> 1 `i `b ]
 "113
-[e $U 52  ]
+[e $U 56  ]
 "114
-[e :U 66 ]
+[e :U 70 ]
 "115
 [e = _RB0 -> -> 1 `i `b ]
 "116
@@ -389,9 +389,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "121
 [e = _RB6 -> -> 1 `i `b ]
 "122
-[e $U 52  ]
+[e $U 56  ]
 "123
-[e :U 67 ]
+[e :U 71 ]
 "124
 [e = _RB0 -> -> 0 `i `b ]
 "125
@@ -407,9 +407,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "130
 [e = _RB6 -> -> 1 `i `b ]
 "131
-[e $U 52  ]
+[e $U 56  ]
 "132
-[e :U 68 ]
+[e :U 72 ]
 "133
 [e = _RB0 -> -> 1 `i `b ]
 "134
@@ -425,9 +425,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "139
 [e = _RB6 -> -> 1 `i `b ]
 "140
-[e $U 52  ]
+[e $U 56  ]
 "141
-[e :U 69 ]
+[e :U 73 ]
 "142
 [e = _RB0 -> -> 0 `i `b ]
 "143
@@ -443,9 +443,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "148
 [e = _RB6 -> -> 1 `i `b ]
 "149
-[e $U 52  ]
+[e $U 56  ]
 "150
-[e :U 70 ]
+[e :U 74 ]
 "151
 [e = _RB0 -> -> 0 `i `b ]
 "152
@@ -461,9 +461,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "157
 [e = _RB6 -> -> 1 `i `b ]
 "158
-[e $U 52  ]
+[e $U 56  ]
 "159
-[e :U 71 ]
+[e :U 75 ]
 "160
 [e = _RB0 -> -> 0 `i `b ]
 "161
@@ -479,9 +479,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "166
 [e = _RB6 -> -> 1 `i `b ]
 "167
-[e $U 52  ]
+[e $U 56  ]
 "168
-[e :U 72 ]
+[e :U 76 ]
 "169
 [e = _RB0 -> -> 1 `i `b ]
 "170
@@ -497,33 +497,33 @@ Version 4.0 HI-TECH Software Intermediate Code
 "175
 [e = _RB6 -> -> 1 `i `b ]
 "176
-[e $U 52  ]
+[e $U 56  ]
 "177
 }
-[e $U 52  ]
-[e :U 53 ]
-[e [\ -> _value `i , $ -> 16 `i 54
- , $ -> 17 `i 55
- , $ -> 0 `i 56
- , $ -> 1 `i 57
- , $ -> 2 `i 58
- , $ -> 3 `i 59
- , $ -> 4 `i 60
- , $ -> 5 `i 61
- , $ -> 6 `i 62
- , $ -> 7 `i 63
- , $ -> 8 `i 64
- , $ -> 9 `i 65
- , $ -> 10 `i 66
- , $ -> 11 `i 67
- , $ -> 12 `i 68
- , $ -> 13 `i 69
- , $ -> 14 `i 70
- , $ -> 15 `i 71
- 72 ]
-[e :U 52 ]
+[e $U 56  ]
+[e :U 57 ]
+[e [\ _value , $ -> 16 `i 58
+ , $ -> 17 `i 59
+ , $ -> 0 `i 60
+ , $ -> 1 `i 61
+ , $ -> 2 `i 62
+ , $ -> 3 `i 63
+ , $ -> 4 `i 64
+ , $ -> 5 `i 65
+ , $ -> 6 `i 66
+ , $ -> 7 `i 67
+ , $ -> 8 `i 68
+ , $ -> 9 `i 69
+ , $ -> 10 `i 70
+ , $ -> 11 `i 71
+ , $ -> 12 `i 72
+ , $ -> 13 `i 73
+ , $ -> 14 `i 74
+ , $ -> 15 `i 75
+ 76 ]
+[e :U 56 ]
 "178
-[e :UE 51 ]
+[e :UE 55 ]
 }
 "180
 [v _show_LED1 `(v ~T0 @X0 1 ef1`uc ]
@@ -540,7 +540,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "184
 [e = _RA4 -> -> 1 `i `b ]
 "185
-[e :UE 73 ]
+[e :UE 77 ]
 }
 "187
 [v _show_LED2 `(v ~T0 @X0 1 ef1`uc ]
@@ -557,7 +557,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "191
 [e = _RA6 -> -> 1 `i `b ]
 "192
-[e :UE 74 ]
+[e :UE 78 ]
 }
 "194
 [v _show_LED3 `(v ~T0 @X0 1 ef1`uc ]
@@ -574,7 +574,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "198
 [e = _RA7 -> -> 1 `i `b ]
 "199
-[e :UE 75 ]
+[e :UE 79 ]
 }
 "201
 [v _draw_add `(v ~T0 @X0 1 ef ]
@@ -588,7 +588,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "204
 [e ( _show_LED3 (1 -> -> 11 `i `uc ]
 "205
-[e :UE 76 ]
+[e :UE 80 ]
 }
 "207
 [v _draw_temp `(v ~T0 @X0 1 ef1`uc ]
@@ -600,20 +600,20 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _d `uc ~T0 @X0 1 a ]
 [e = _d -> / -> _i `i -> 10 `i `uc ]
 "210
-[e $ ! > -> _d `i -> 0 `i 78  ]
+[e $ ! > -> _d `i -> 0 `i 82  ]
 {
 "211
 [e ( _show_LED1 (1 _d ]
 "212
 }
-[e $U 79  ]
-[e :U 78 ]
+[e $U 83  ]
+[e :U 82 ]
 {
 "213
 [e ( _show_LED1 (1 -> -> 16 `i `uc ]
 "214
 }
-[e :U 79 ]
+[e :U 83 ]
 "215
 [e = _d -> - -> _i `i * / -> _i `i -> 10 `i -> 10 `i `uc ]
 "216
@@ -621,7 +621,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "217
 [e ( _show_LED3 (1 -> -> 12 `i `uc ]
 "218
-[e :UE 77 ]
+[e :UE 81 ]
 }
 "220
 [v _draw_needed_amount `(v ~T0 @X0 1 ef1`uc ]
@@ -636,7 +636,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "223
 [e ( _show_LED3 (1 -> -> 16 `i `uc ]
 "224
-[e :UE 80 ]
+[e :UE 84 ]
 }
 "226
 [v _draw_minus `(v ~T0 @X0 1 ef ]
@@ -650,7 +650,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "229
 [e ( _show_LED3 (1 -> -> 16 `i `uc ]
 "230
-[e :UE 81 ]
+[e :UE 85 ]
 }
 "232
 [v _draw_to `(v ~T0 @X0 1 ef ]
@@ -664,7 +664,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "235
 [e ( _show_LED3 (1 -> -> 14 `i `uc ]
 "236
-[e :UE 82 ]
+[e :UE 86 ]
 }
 "238
 [v _draw_hot `(v ~T0 @X0 1 ef ]
@@ -678,7 +678,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "241
 [e ( _show_LED3 (1 -> -> 15 `i `uc ]
 "242
-[e :UE 83 ]
+[e :UE 87 ]
 }
 "245
 [v _draw_to_LED `(v ~T0 @X0 1 ef1`i ]
@@ -689,26 +689,26 @@ Version 4.0 HI-TECH Software Intermediate Code
 "246
 [v _d `i ~T0 @X0 1 a ]
 "247
-[e $ ! >= _i -> 0 `i 85  ]
+[e $ ! >= _i -> 0 `i 89  ]
 {
 "249
 [v _d `i ~T0 @X0 1 a ]
 [e = _d / _i -> 100 `i ]
 "250
-[e $ ! > _d -> 0 `i 86  ]
+[e $ ! > _d -> 0 `i 90  ]
 {
 "251
 [e ( _show_LED1 (1 -> _d `uc ]
 "252
 }
-[e $U 87  ]
-[e :U 86 ]
+[e $U 91  ]
+[e :U 90 ]
 {
 "253
 [e ( _show_LED1 (1 -> -> 16 `i `uc ]
 "254
 }
-[e :U 87 ]
+[e :U 91 ]
 "255
 [e = _d - / _i -> 10 `i * / _i -> 100 `i -> 10 `i ]
 "256
@@ -723,13 +723,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _show_LED3 (1 -> _d `uc ]
 "263
 }
-[e $U 88  ]
-[e :U 85 ]
+[e $U 92  ]
+[e :U 89 ]
 {
 "265
 [e = _d / -U _i -> 100 `i ]
 "266
-[e $ ! > _d -> 0 `i 89  ]
+[e $ ! > _d -> 0 `i 93  ]
 {
 "267
 [e ( _show_LED1 (1 -> -> 17 `i `uc ]
@@ -741,8 +741,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _show_LED3 (1 -> _d `uc ]
 "271
 }
-[e $U 90  ]
-[e :U 89 ]
+[e $U 94  ]
+[e :U 93 ]
 {
 "272
 [e ( _show_LED1 (1 -> -> 17 `i `uc ]
@@ -760,7 +760,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _show_LED3 (1 -> _d `uc ]
 "280
 }
-[e :U 90 ]
+[e :U 94 ]
 "281
 [e = _RA4 -> -> 1 `i `b ]
 "282
@@ -769,7 +769,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _RA7 -> -> 1 `i `b ]
 "284
 }
-[e :U 88 ]
+[e :U 92 ]
 "285
 [e = _RB0 -> -> 0 `i `b ]
 "286
@@ -787,7 +787,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "292
 [e = _RB7 -> -> 0 `i `b ]
 "293
-[e :UE 84 ]
+[e :UE 88 ]
 }
 "296
 [v _init_LED `(v ~T0 @X0 1 ef ]
@@ -823,7 +823,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "313
 [e = _RA7 -> -> 1 `i `b ]
 "314
-[e :UE 91 ]
+[e :UE 95 ]
 }
 "316
 [v _draw_empty `(v ~T0 @X0 1 ef ]
@@ -859,5 +859,5 @@ Version 4.0 HI-TECH Software Intermediate Code
 "333
 [e = _RA7 -> -> 1 `i `b ]
 "334
-[e :UE 92 ]
+[e :UE 96 ]
 }
